@@ -1,0 +1,25 @@
+{
+  "name": "wallpaper-converter",
+  "version": "0.0.1",
+  "description": "Converts images to wallpapers using aspect ratio to determine whether an image fits",
+  "main": "src/index.js",
+  "scripts": {
+    "convert": "node src/index.js",
+    "build-win": "pkg src/index.js -o dist/image2wallpaper.exe -t win"
+  },
+  "keywords": [
+    "converter",
+    "image",
+    "wallpaper"
+  ],
+  "author": "nikolay.n.borzov@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "fs-jetpack": "^1.2.0",
+    "gm": "^1.23.0",
+    "pino": "^4.7.1",
+    "progress": "^2.0.0",
+    "yargs": "^8.0.2"
+  }
+}
