@@ -1,4 +1,6 @@
 # image2wallpaper
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnikolay-borzov%2Fimage2wallpaper.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnikolay-borzov%2Fimage2wallpaper?ref=badge_shield)
+
 Converts images to wallpapers using aspect ratio to determine whether an image fits
 
 # Config params
@@ -53,3 +55,6 @@ See inside `/dist`
 - [pino](https://github.com/pinojs/pino)
 - [pkg](https://github.com/zeit/pkg)
 - [node-progress](https://github.com/visionmedia/node-progress)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnikolay-borzov%2Fimage2wallpaper.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnikolay-borzov%2Fimage2wallpaper?ref=badge_large)
